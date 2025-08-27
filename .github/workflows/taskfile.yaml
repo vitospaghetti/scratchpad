@@ -1,8 +1,8 @@
-name: hello-world
+name: taskfile-test
 on: push
 jobs:
   my-job:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: my-step
         run: echo "Hello World!"
