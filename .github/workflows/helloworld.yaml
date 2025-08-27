@@ -1,4 +1,4 @@
-name: Taskfile
+name: taskfile-test
 on: push
 jobs:
   Basics:
